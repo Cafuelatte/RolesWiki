@@ -1,0 +1,8 @@
+title: RolesWiki
+description: Nebula on the Ship の役職Wiki
+
+# Wiki用テーマ「Just the Docs」を指定
+remote_theme: just-the-docs/just-the-docs
+
+# ナビゲーション（サイドバー）の設定
+nav_sort: bordered
