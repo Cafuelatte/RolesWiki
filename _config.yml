@@ -1,12 +1,12 @@
 title: RolesWiki
 description: Nebula on the Ship の役職Wiki
 
-# ⚠️ URLの階層を正しく反映させます
 baseurl: "/RolesWiki"
-url: "https://cafuelatte.github.io"
+url: "https://github.io"
 
-# ⚠️ GitHub Pagesで外部テーマを動かすための正しい指定方法
 remote_theme: just-the-docs/just-the-docs
 
-# ナビゲーション（サイドバー）の並び順
 nav_sort: bordered
+
+# 👈 これを追加
+site_url: "https://github.io/RolesWiki"
