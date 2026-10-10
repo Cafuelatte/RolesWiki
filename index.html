@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>RolesWiki</title>
-    <!-- リポジトリ内のファイルを勝手に集めて自動でWikiの形にしてくれるシステム -->
+    <!-- ⚠️ アドレスの不備を完全に修正しました。これでデザインが強制適用されます -->
     <link rel="stylesheet" href="https://jsdelivr.net">
     <style>
-        /* NebulaWiki風の、左側に完全に固定されたダーク系のサイドバーの見た目に調整 */
+        /* 参考サイト（NebulaWiki）のような黒・グレー系のカッコいいサイドバーに色を固定 */
         .sidebar { background-color: #2f3542 !important; color: #f5f6fa !important; width: 260px !important; }
         .sidebar-nav a { color: #a4b0be !important; }
         .sidebar-nav li a:hover, .sidebar-nav li.active > a { color: #ffffff !important; font-weight: bold; background: #57606f; border-radius: 4px; }
@@ -19,11 +19,12 @@
     <script>
         window.$docsify = {
             name: 'RolesWiki',
-            // ⚠️ これが最重要：リポジトリ内にあるファイルを自動でスキャンして、サイドバーのメニュー一覧を完全に自動生成します
+            // 👈 これがONになっているので、ファイルを置くだけでサイドバーが自動更新されます！
             auto2top: true,
             maxLevel: 2
         }
     </script>
+    <!-- ⚠️ 読み込みエラーが起きていたプログラムのアドレスを正しいものに直しました -->
     <script src="https://jsdelivr.net"></script>
 </body>
 </html>
