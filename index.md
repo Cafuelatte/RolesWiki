@@ -6,5 +6,6 @@ permalink: /
 ---
 
 # RolesWiki へようこそ！
-ここは **TownOfHost-Shell** の役職非公式Wikiです。
-左側のサイドバーから各ページを見ることができます。
+ここは **TownOfHost-Shell**　の役職非公式Wikiです。
+
+左側のサイドバーから、いつでも好きな役職のページに移動できます。
