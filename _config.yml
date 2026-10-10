@@ -1,8 +1,11 @@
 title: RolesWiki
-description: Nebula on the Ship の役職Wiki
+description: TownOfHost-Shell の非公式役職Wiki
 
-# Wiki用テーマ「Just the Docs」を指定
+# リポジトリの名前（URLの末尾）を正確に指定します
+baseurl: "/RolesWiki"
+
+# Wiki用テーマ「Just the Docs」を強制適用
 remote_theme: just-the-docs/just-the-docs
 
-# ナビゲーション（サイドバー）の設定
+# ナビゲーション（サイドバー）の並び順設定
 nav_sort: bordered
